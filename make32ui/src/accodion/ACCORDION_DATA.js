@@ -1,34 +1,4 @@
-import { useState } from "react";
-import "./App.css";
-
-function App() {
-  const [select, setSelect] = useState(null);
-  const toggle = (i) => {
-    if (select === i) {
-      return setSelect(null);
-    }
-    setSelect(i);
-  };
-  return (
-    <div className="Wrapper">
-      <div className="Accordion">
-        {data.map((item, i) => (
-          <div className="item">
-            <div className="title" onClick={() => toggle(i)}>
-              <h2>{item.question}</h2>
-              <span>{select === i ? "-" : "+"}</span>
-            </div>
-            <div className={select === i ? "content show" : "content"}>
-              {item.answer}
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-}
-
-const data = [
+export const ACCODION_DATA = [
   {
     question: "Question1",
     answer:
@@ -44,5 +14,3 @@ const data = [
     answer: "lai;sfjls;kfja;klsfjal;sdkfjal;ksfjal;kfdsfjasklfjlaskf",
   },
 ];
-
-export default App;
