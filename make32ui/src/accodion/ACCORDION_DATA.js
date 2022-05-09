@@ -7,10 +7,10 @@ export const ACCODION_DATA = [
 
   {
     question: "Question2",
-    answer: "lai;sfjls;kfja;klsfjal;sdkfjal;ksfjal;kfdsfjasklfjlaskf",
+    answer: "lai;sfjls;kfja;klsfjal;sd호놀루루루kfjal;ksfjal;kfdsfjasklfjlaskf",
   },
   {
     question: "Question3",
-    answer: "lai;sfjls;kfja;klsfjal;sdkfjal;ksfjal;kfdsfjasklfjlaskf",
+    answer: "lai;sfjls;kfja;klsfjal;sdadsfadfafkfjal;ksfjal;kfdsfjasklfjlaskf",
   },
 ];
